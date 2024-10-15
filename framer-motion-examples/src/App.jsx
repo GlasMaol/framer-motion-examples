@@ -1,11 +1,16 @@
+import FadeIn from "./pages/fadeIn/FadeIn"
+import Hover from "./pages/hover/Hover"
+import SlideInFromSide from "./pages/slideInFromSide/SlideInFromSide"
 
 
 function App() {
 
   return (
-    <section className="section-one">
-      Hej
-    </section>
+    <div>
+      <FadeIn />
+      <Hover />
+      <SlideInFromSide />
+    </div>
   )
 }
 
